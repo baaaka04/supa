@@ -1,1 +1,78 @@
-body{color:#79819a;margin:0;font-family:DM Sans;font-size:15.52px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@font-face{font-family:DM Sans;font-style:"normal";font-weight:400;src:url(/assets/DMSans-Regular.9ae2da66.ttf) format("truetype")}@font-face{font-family:DM Sans;font-style:"normal";font-weight:500;src:url(/assets/DMSans-Medium.418ce314.ttf) format("truetype")}@font-face{font-family:Outfit;font-style:"normal";font-weight:100;src:url(/assets/Outfit-Thin.ea495436.ttf) format("truetype")}@font-face{font-family:Outfit;font-style:"normal";font-weight:200;src:url(/assets/Outfit-ExtraLight.7a9fde4a.ttf) format("truetype")}@font-face{font-family:Outfit;font-style:"normal";font-weight:400;src:url(/assets/Outfit-Regular.b5838531.ttf) format("truetype")}@font-face{font-family:Outfit;font-style:"normal";font-weight:500;src:url(/assets/Outfit-Medium.d62b364b.ttf) format("truetype")}@font-face{font-family:Outfit;font-style:"normal";font-weight:600;src:url(/assets/Outfit-SemiBold.9f8d57cb.ttf) format("truetype")}@font-face{font-family:Outfit;font-style:"normal";font-weight:700;src:url(/assets/Outfit-Bold.3f5829c4.ttf) format("truetype")}@font-face{font-family:Outfit;font-style:"normal";font-weight:800;src:url(/assets/Outfit-ExtraBold.320497a1.ttf) format("truetype")}@font-face{font-family:Outfit;font-style:"normal";font-weight:900;src:url(/assets/Outfit-Black.93302e2e.ttf) format("truetype")}
+body {
+    color: #79819a;
+    margin: 0;
+    font-family: DM Sans;
+    font-size: 15.52px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+@font-face {
+    font-family: DM Sans;
+    font-style: "normal";
+    font-weight: 400;
+    src: url(/supa/assets/DMSans-Regular.9ae2da66.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: DM Sans;
+    font-style: "normal";
+    font-weight: 500;
+    src: url(/supa/assets/DMSans-Medium.418ce314.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Outfit;
+    font-style: "normal";
+    font-weight: 100;
+    src: url(/supa/assets/Outfit-Thin.ea495436.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Outfit;
+    font-style: "normal";
+    font-weight: 200;
+    src: url(/supa/assets/Outfit-ExtraLight.7a9fde4a.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Outfit;
+    font-style: "normal";
+    font-weight: 400;
+    src: url(/supa/assets/Outfit-Regular.b5838531.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Outfit;
+    font-style: "normal";
+    font-weight: 500;
+    src: url(/supa/assets/Outfit-Medium.d62b364b.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Outfit;
+    font-style: "normal";
+    font-weight: 600;
+    src: url(/supa/assets/Outfit-SemiBold.9f8d57cb.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Outfit;
+    font-style: "normal";
+    font-weight: 700;
+    src: url(/supa/assets/Outfit-Bold.3f5829c4.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Outfit;
+    font-style: "normal";
+    font-weight: 800;
+    src: url(/supa/assets/Outfit-ExtraBold.320497a1.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Outfit;
+    font-style: "normal";
+    font-weight: 900;
+    src: url(/supa/assets/Outfit-Black.93302e2e.ttf) format("truetype")
+}

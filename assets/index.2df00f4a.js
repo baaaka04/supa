@@ -401,7 +401,7 @@ justify-content: space-between;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-`; function sp() { return H(eo, { children: [v(to, {}), H("div", { children: [v(no, { children: "Skills" }), v(Ou, { children: v(ap, { children: [{ title: "Development", icon: v(up, {}), value: [[[["React JS"], ["Svelte"]]], [[["Typescript"]], [["ES6"]]], [[["HTML"], ["CSS"], ["JS"]], [["Git", "NodeJS", "VS Code"]]]], fontColor: "#9251F7", iconColor: "#EFE2F9" }, { title: "Financial", icon: v(ip, {}), value: [[[["1C"]], [["Excel", "Word", "PowerPoint"]]], [[["SQL"], ["MS Access"]]], [[["Power BI"], ["Power Query"], ["Power Pivot"]]]], fontColor: "#516CF7", iconColor: "#E1E7FE" }].map(t => v(op, { icon: t.icon, titleName: t.title, skills: t.value, fcolor: t.fontColor, icolor: t.iconColor }, t.title)) }) })] })] }) } const cp = M.div`
+`; function sp() { return H(eo, { children: [v(to, {}), H("div", { children: [v(no, { children: "Skills" }), v(Ou, { children: v(ap, { children: [{ title: "Development", icon: v(up, {}), value: [[[["React JS"], ["Svelte"]]], [[["Typescript"]], [["ES6"]]], [[["HTML"], ["CSS"], ["JS"]], [["Git", "NodeJS", "VS Code"]]]], fontColor: "#9251F7", iconColor: "#EFE2F9" }, { title: "Finance", icon: v(ip, {}), value: [[[["1C"]], [["Excel", "Word", "PowerPoint"]]], [[["SQL"], ["MS Access"]]], [[["Power BI"], ["Power Query"], ["Power Pivot"]]]], fontColor: "#516CF7", iconColor: "#E1E7FE" }].map(t => v(op, { icon: t.icon, titleName: t.title, skills: t.value, fcolor: t.fontColor, icolor: t.iconColor }, t.title)) }) })] })] }) } const cp = M.div`
 width: 977.45px;
 margin: 82.75px 0 82.75px 0;
 `; function fp() { return H(cp, { children: [v(E2, {}), v($2, {}), v(Z2, {}), v(sp, {})] }) } const dp = M.div`

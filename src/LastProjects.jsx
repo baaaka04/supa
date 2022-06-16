@@ -15,8 +15,8 @@ export function LastProjects() {
         {
             name: 'My own resume',
             descr: 'Figma to React practice.',
-            link: 'https://figma.com',
-            linkText: 'https://figma.com',
+            link: 'https://www.figma.com/community/file/1087586245868299560',
+            linkText: 'https://figma.com/supa-resume',
             icon: <Figma />,
             jpg: resumeIMG
         },

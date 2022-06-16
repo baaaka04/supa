@@ -10,5 +10,6 @@ export default defineConfig({
       svgrOptions: {
         // ...svgr options (https://react-svgr.com/docs/options/)
       },
-    })]
+    })],
+  base: '/supa/'
 })

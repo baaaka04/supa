@@ -28,7 +28,7 @@ export function Aside() {
                 <Contacts
                     contacts={{
                         email: 'berezin.artem@yahoo.com',
-                        website: 'https://aldesign.it',
+                        // website: 'https://aldesign.it',
                         phone: '(+7) 964 557 24 63',
                         address: 'Moscow, Russia'
                     }}

@@ -2,11 +2,11 @@ import { LProjectsItem } from "./LProjectsItem";
 import { Header } from './Experience';
 import { StepContent, ContentItem, ContentBox } from "./StepContent";
 import { ReactComponent as Figma } from './icons/figma.svg';
-import { ReactComponent as Telegram } from './icons/telegram-2.svg';
+import { ReactComponent as Google } from './icons/google.svg';
 import { ReactComponent as LinkSVG } from './icons/little-link.svg';
 import { RoundedBox } from "./Contacts.styled.js";
 import resumeIMG from './images/supa_resume.jpg';
-import botfatherIMG from './images/botfather.jpg';
+import googlebooksIMG from './images/google-books.png';
 import accountingIMG from './images/accounting.png';
 import quizIMG from './images/quiz.jpg';
 
@@ -21,12 +21,12 @@ export function LastProjects() {
             jpg: resumeIMG
         },
         {
-            name: 'Notify',
-            descr: 'Telegram Bot for reminders on javascript.',
-            link: 'https://t.me/notify_ab_bot',
-            linkText: 't.me/notify_ab_bot',
-            icon: <Telegram />,
-            jpg: botfatherIMG
+            name: 'Book finder',
+            descr: 'React SPA with Google.books API searcher.',
+            link: 'https://baaaka04.github.io/book-finder',
+            linkText: 'baaaka04.github.io/book-finder',
+            icon: <Google />,
+            jpg: googlebooksIMG
         },
         {
             name: 'Quiz',

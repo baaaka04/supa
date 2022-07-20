@@ -24,6 +24,7 @@ export function Skills() {
                 ],
                 [
                     [['Typescript']],
+                    [['Redux']],
                     [['ES6']],
                 ],
                 [

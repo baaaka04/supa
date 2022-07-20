@@ -1,5 +1,4 @@
 import { ContactsItem } from "./ContactsItem"
-import { ReactComponent as Link } from './icons/link.svg'
 import { ReactComponent as Phone } from './icons/phone.svg'
 import { ReactComponent as Mail } from './icons/mail.svg'
 import { ReactComponent as Address } from './icons/address.svg'
@@ -12,11 +11,6 @@ export function Contacts(props) {
             title: 'Email',
             value: props.contacts.email,
             IconComponent: <Mail />
-        },
-        {
-            title: 'Website',
-            value: props.contacts.website,
-            IconComponent: <Link />
         },
         {
             title: 'Phone',

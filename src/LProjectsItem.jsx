@@ -5,7 +5,10 @@ padding: 31.03px;
 width: 380.12px;
 background-color: #F7F9FC;
 `
-
+const ImageContainer = styled.div`
+display: flex;
+justify-content: space-between;
+`
 const ProjectName = styled.div`
 font-size: 20.69px;
 color: #2E2E48;
@@ -48,14 +51,20 @@ font-weight: 500;
 font-size: 20.69px;
 text-decoration: none;
 `
+const GHLink = styled(Link)`
+font-size: 14px;
+`
 
-export function LProjectsItem({ projectName, projectDescription, link, linkText, linkIcon, picture }) {
+export function LProjectsItem({ projectName, projectDescription, link, linkText, linkIcon, picture, ghlink }) {
 
     return (
         <Container>
-            <ProjectPicture
-                url={picture}
-            />
+            <ImageContainer>
+                <ProjectPicture
+                    url={picture}
+                />
+                <GHLink target="_blank" href={ghlink}>GitHub</GHLink>
+            </ImageContainer>
             <ProjectName>
                 {projectName}
             </ProjectName>

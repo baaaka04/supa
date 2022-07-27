@@ -24,22 +24,28 @@ const Container = styled.div`
 font-family: Outfit;
 font-weight: 500;
 `
-const Name = styled.div`
+const Name = styled.p`
 font-size:41.3737px;
 color: #2E2E48;
 line-height: 52px;
+margin: 0;
+@media (max-width: 1010px) {
+    font-size: 30px;
+}
 `
-const Position = styled.div`
+const Position = styled.p`
 font-size:31.0303px;
-width: 362px;
-
 background: linear-gradient(90deg, #A478E8 0%, #516CF7 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
 text-fill-color: transparent;
+margin: 0 0 41px 0;
 
-margin-bottom: 41px;
+@media (max-width: 1010px) {
+    font-size: 25px;
+    margin: 0;
+    }
 `
 const Quote = styled.div`
 font-style: normal;
@@ -59,27 +65,36 @@ font-family: DM Sans;
 font-weight: 400;
 margin: 5.17px 0 0 31px;
 `
-
+const QuoteBox = styled.div`
+@media (max-width: 1010px) {
+    display: none;
+}
+`
+const NameBox = styled.div`
+@media (max-width: 1010px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+`
 export function Avatar() {
     return (
-        <div>
-            <Container>
-                <div>
-                    <Img />
-                    <Name>Artem Berezin</Name>
-                    <Position>Frontend Developer</Position>
-                </div>
-                <div>
-                    <Quote>
-                        <QuoteComma />
-                        <QuoteText>
-                            I know the human being and fish can coexist peacefully.
-                        </QuoteText>
-                        <Reverse />
-                    </Quote>
-                    <QuoteAuthor> George W. Bush</QuoteAuthor>
-                </div>
-            </Container>
-        </div>
+        <Container>
+            <NameBox>
+                <Img />
+                <Name>Artem Berezin</Name>
+                <Position>Frontend Developer</Position>
+            </NameBox>
+            <QuoteBox>
+                <Quote>
+                    <QuoteComma />
+                    <QuoteText>
+                        I know the human being and fish can coexist peacefully.
+                    </QuoteText>
+                    <Reverse />
+                </Quote>
+                <QuoteAuthor> George W. Bush</QuoteAuthor>
+            </QuoteBox>
+        </Container>
     )
 }

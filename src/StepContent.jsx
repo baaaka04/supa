@@ -5,7 +5,7 @@ display: flex;
 `
 export const ContentBox = styled.div`
 margin-bottom: 62.06px;
-width: 894.71px;
+max-width: 894.71px;
 `
 const Container = styled.div`
 display: flex;
@@ -13,6 +13,9 @@ align-items: center;
 flex-direction: column;
 margin-right: 41.37px;
 height: 100%;
+@media (max-width: 1010px) {
+    display: none;
+  }
 `
 const Circle = styled.div`
 width: 15.3px;

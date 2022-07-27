@@ -8,6 +8,9 @@ flex-direction:row;
 align-items: center;
 padding-bottom: 10.34px;
 margin-bottom: 10.34px;
+@media (max-width: 1010px) {
+    margin-left: 1rem;
+    }
 `
 const Icon = styled.div`
 display: flex;
@@ -32,7 +35,7 @@ font-size: 18.101px;
 color: #2E2E48;
 `
 const ChapterBox = styled.div`
-width: 431.84px;
+max-width: 431.84px;
 `
 const SkillsRow = styled.div`
 display: flex;

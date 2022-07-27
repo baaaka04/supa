@@ -41,7 +41,6 @@ margin: 0px 0px 0px 20.69px;
 `
 export const RoundedBox = styled.div`
 display: flex;
-flex-direction: row;
 flex-wrap: wrap;
 border-radius: 10.3434px;
 overflow: hidden;

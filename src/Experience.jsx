@@ -3,16 +3,20 @@ import { ExperienceItem } from './ExperienceItem';
 import { StepContent, ContentItem } from './StepContent';
 import malltech from './icons/malltech.png';
 
-export const Header = styled.div`
+export const Header = styled.span`
+display: inline-block;
 font-family: 'Outfit';
 font-weight: 500;
 font-size: 31px;
 color: #2E2E48;
 margin-bottom: 41.37px;
+@media (max-width: 1010px) {
+    margin-left: 1.5rem;
+    }
 `
 const ExperienceBox = styled.div`
 margin-bottom: 62.06px;
-width: 894.71px;
+max-width: 894.71px;
 `
 
 export function Experience() {

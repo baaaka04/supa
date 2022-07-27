@@ -5,11 +5,12 @@ import { Header } from './Experience';
 import { ReactComponent as FinanceSVG } from './icons/coin.svg'
 import { ReactComponent as DevSVG } from './icons/development.svg'
 
-
 const Section = styled.div`
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+gap: 30px;
+flex-wrap: wrap;
 `
 
 export function Skills() {
@@ -36,7 +37,7 @@ export function Skills() {
             iconColor: '#EFE2F9'
         },
         {
-            title: 'Financial',
+            title: 'Finance',
             icon: <FinanceSVG />,
             value: [
                 [
@@ -63,6 +64,7 @@ export function Skills() {
                 <Header>
                     Skills
                 </Header>
+
                 <ContentBox>
                     <Section>
                         {skills.map(item =>
@@ -77,6 +79,7 @@ export function Skills() {
                         )}
                     </Section>
                 </ContentBox>
+
             </div>
         </ContentItem>
     )

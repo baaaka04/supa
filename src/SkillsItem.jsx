@@ -10,7 +10,7 @@ background-color: #F7F9FC;
 color: ${props => props.color};
 font-weight: 500;
 font-size: 18.101px;
-width: 80px;
+max-width: 80px;
 `
 const Divider = styled.div`
 display: flex;
@@ -19,7 +19,7 @@ border-right: ${props => props.vis};
 width:100%;
 height: 63.78px;
 `
-const List = styled.div`
+const List = styled.span`
 display: ${props => props.list};
 list-style: inside;
 white-space: nowrap;

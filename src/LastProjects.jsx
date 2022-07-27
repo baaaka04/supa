@@ -17,7 +17,7 @@ export function LastProjects() {
             descr: 'Figma to React practice.',
             link: 'https://www.figma.com/community/file/1087586245868299560',
             ghlink: 'https://github.com/baaaka04/supa',
-            linkText: 'https://figma.com/supa-resume',
+            linkText: 'figma.com/supa-resume',
             icon: <Figma />,
             jpg: resumeIMG
         },
@@ -35,7 +35,7 @@ export function LastProjects() {
             descr: 'A website where you can add your own questions and play quizzes.',
             link: 'https://baaaka04.github.io/quiz',
             ghlink: 'https://github.com/baaaka04/quiz',
-            linkText: 'https://baaaka04.github.io/quiz',
+            linkText: 'baaaka04.github.io/quiz',
             icon: <LinkSVG />,
             jpg: quizIMG
         },
@@ -44,7 +44,7 @@ export function LastProjects() {
             descr: 'Web application to record all my income and expenditure on Svelte.',
             link: 'http://212.152.40.222:50401/',
             ghlink: 'https://github.com/baaaka04/budget-app',
-            linkText: 'https://ab-accounting.ru',
+            linkText: 'ab-accounting.ru',
             icon: <LinkSVG />,
             jpg: accountingIMG
         }
@@ -57,6 +57,7 @@ export function LastProjects() {
                 <Header>
                     Latest projects
                 </Header>
+
                 <ContentBox>
                     <RoundedBox>
                         {projects.map(item =>
@@ -73,6 +74,7 @@ export function LastProjects() {
                         )}
                     </RoundedBox>
                 </ContentBox>
+
             </div>
         </ContentItem>
     )

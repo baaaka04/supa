@@ -1,34 +1,40 @@
-import { useState } from 'react'
 import { Contacts } from './Contacts.jsx'
 import { Languages } from './Languages.jsx'
 import { Avatar } from './Avatar.jsx'
 import { Socials } from './Socials.jsx'
 import styled from 'styled-components'
 
-const Divider = styled.div`
+const Container = styled.div`
+max-width: 341.41px;
+margin: 62.06px 62.06px auto;
+`
+export const Divider = styled.div`
 height: 1.29px;
 width: 341.33px;
 background-color: #E2E6EE;
 margin: 41.37px 0;
+@media (max-width: 1010px) {
+    margin: 10px 0;
+    }
 `
-const Container = styled.div`
-width: 341.41px;
-margin: 62.06px 62.06px auto;
+const Desktop = styled.div`
+@media (max-width: 1010px) {
+  display: none;
+}
 `
-
 
 export function Aside() {
 
     return (
-        <div>
-            <Container>
-                <Avatar />
+        <Container>
+            <Avatar />
+
+            <Desktop>
 
                 <Divider />
                 <Contacts
                     contacts={{
                         email: 'berezin.artem@yahoo.com',
-                        // website: 'https://aldesign.it',
                         phone: '(+7) 964 557 24 63',
                         address: 'Moscow, Russia'
                     }}
@@ -45,9 +51,8 @@ export function Aside() {
                 />
 
                 <Divider />
-                <Languages
-                />
-            </Container>
-        </div>
+                <Languages />
+            </Desktop>
+        </Container>
     )
 }

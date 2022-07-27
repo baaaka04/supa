@@ -2,20 +2,21 @@ import styled from 'styled-components'
 
 const Container = styled.div`
 padding: 31.03px;
-width: 380.12px;
+max-width: 380.12px;
+flex-grow: 1;
 background-color: #F7F9FC;
 `
 const ImageContainer = styled.div`
 display: flex;
 justify-content: space-between;
 `
-const ProjectName = styled.div`
+const ProjectName = styled.p`
 font-size: 20.69px;
 color: #2E2E48;
 margin-bottom: 5.17px;
 font-weight: 500;
 `
-const ProjectDescription = styled.div`
+const ProjectDescription = styled.p`
 font-size: 18.1px;
 color: #79819A;
 font-weight: 400;
@@ -75,9 +76,7 @@ export function LProjectsItem({ projectName, projectDescription, link, linkText,
                 <Icon>
                     {linkIcon}
                 </Icon>
-                <div>
-                    <Link target="_blank" href={link}>{linkText}</Link>
-                </div>
+                <Link target="_blank" href={link}>{linkText}</Link>
             </LinkBar>
         </Container>
     )

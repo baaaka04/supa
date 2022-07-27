@@ -8,7 +8,8 @@ display: flex;
 const ExperienceContent = styled.div`
 display: flex;
 padding-top: 7.76px;
-width: 842.99px;
+max-width: 842.99px;
+flex-wrap: wrap;
 `
 const ExperienceTitle = styled.div`
 width: 310.3px;
@@ -41,11 +42,12 @@ margin-right: 20.69px;
 background-repeat: no-repeat;
 box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 `
-const Descript = styled.div`
+const Descript = styled.p`
 font-size: 12.93px;
 font-weight: 400;
 letter-spacing: 0.01em;
-margin-left: 10.34px;
+margin: 0 0 10.34px 10.34px;
+max-width: 522px;
 `
 const Stepper = styled.div`
 display: flex;
@@ -70,41 +72,41 @@ flex-grow: 1;
 export function ExperienceItem({ period, city, position, company, description, icon, bgcolor, view }) {
 
     return (
-        <div>
-            <ExperienceElement>
-                <Stepper>
-                    <BlackCircle />
-                    <StepLine visability={view} />
-                </Stepper>
+        <ExperienceElement>
 
-                <ExperienceContent>
-                    <ExperienceTitle>
-                        <PeriodPLace>
-                            <Period>
-                                {period}
-                            </Period>
-                            <LocationSeparatedSVG />
-                            {city}
-                        </PeriodPLace>
-                        <IPC>
-                            <Icon bgcolor={bgcolor}>
-                                {icon}
-                            </Icon>
-                            <div>
-                                <Header>
-                                    {position}
-                                </Header>
-                                <BoldText>
-                                    {company}
-                                </BoldText>
-                            </div>
-                        </IPC>
-                    </ExperienceTitle>
-                    <Descript>
-                        {description}
-                    </Descript>
-                </ExperienceContent>
-            </ExperienceElement>
-        </div>
+            <Stepper>
+                <BlackCircle />
+                <StepLine visability={view} />
+            </Stepper>
+
+            <ExperienceContent>
+                <ExperienceTitle>
+                    <PeriodPLace>
+                        <Period>
+                            {period}
+                        </Period>
+                        <LocationSeparatedSVG />
+                        {city}
+                    </PeriodPLace>
+                    <IPC>
+                        <Icon bgcolor={bgcolor}>
+                            {icon}
+                        </Icon>
+                        <div>
+                            <Header>
+                                {position}
+                            </Header>
+                            <BoldText>
+                                {company}
+                            </BoldText>
+                        </div>
+                    </IPC>
+                </ExperienceTitle>
+                <Descript>
+                    {description}
+                </Descript>
+            </ExperienceContent>
+
+        </ExperienceElement>
     );
 }

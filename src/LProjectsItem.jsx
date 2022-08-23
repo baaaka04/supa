@@ -29,6 +29,8 @@ width: 165.49px;
 height: 124.12px;
 border-radius: 10.3434px;
 margin-bottom: 20.69px;
+transition: all .2s ease-in-out;
+    &:hover {transform: scale(1.2)};
 `
 const LinkBar = styled.div`
 margin-top: 20.69px;
@@ -51,6 +53,7 @@ color: #516CF7;
 font-weight: 500;
 font-size: 20.69px;
 text-decoration: none;
+&:hover {text-decoration: underline;}
 `
 const GHLink = styled(Link)`
 font-size: 14px;

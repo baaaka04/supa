@@ -21,7 +21,7 @@ export function Skills() {
             icon: <DevSVG />,
             value: [
                 [
-                    [['React JS'], ['Svelte']],
+                    [['React JS'], ['Next JS']],
                 ],
                 [
                     [['Typescript']],

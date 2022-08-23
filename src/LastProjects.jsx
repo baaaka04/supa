@@ -42,7 +42,7 @@ export function LastProjects() {
         {
             name: 'Personal accounting',
             descr: 'Web application to record all my income and expenditure on Svelte.',
-            link: 'http://212.152.40.222:50401/',
+            link: 'http://212.152.40.222:50402/',
             ghlink: 'https://github.com/baaaka04/budget-app',
             linkText: 'ab-accounting.ru',
             icon: <LinkSVG />,

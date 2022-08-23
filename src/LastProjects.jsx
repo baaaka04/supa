@@ -22,6 +22,15 @@ export function LastProjects() {
             jpg: resumeIMG
         },
         {
+            name: 'Personal accounting',
+            descr: 'Web application to record all my income and expenditure on Svelte.',
+            link: 'http://212.152.40.222:50402/',
+            ghlink: 'https://github.com/baaaka04/budget-app',
+            linkText: 'ab-accounting.ru',
+            icon: <LinkSVG />,
+            jpg: accountingIMG
+        },
+        {
             name: 'Book finder',
             descr: 'React SPA with Google.books API searcher.',
             link: 'https://baaaka04.github.io/book-finder',
@@ -39,15 +48,6 @@ export function LastProjects() {
             icon: <LinkSVG />,
             jpg: quizIMG
         },
-        {
-            name: 'Personal accounting',
-            descr: 'Web application to record all my income and expenditure on Svelte.',
-            link: 'http://212.152.40.222:50402/',
-            ghlink: 'https://github.com/baaaka04/budget-app',
-            linkText: 'ab-accounting.ru',
-            icon: <LinkSVG />,
-            jpg: accountingIMG
-        }
     ]
 
     return (

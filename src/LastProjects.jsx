@@ -7,7 +7,7 @@ import { ReactComponent as LinkSVG } from './icons/little-link.svg';
 import { RoundedBox } from "./Contacts.styled.js";
 import resumeIMG from './images/supa_resume.jpg';
 import googlebooksIMG from './images/google-books.png';
-import accountingIMG from './images/accounting.png';
+import accountingIMG from './images/web_accounting.jpg';
 import quizIMG from './images/quiz.jpg';
 
 export function LastProjects() {
@@ -22,11 +22,11 @@ export function LastProjects() {
             jpg: resumeIMG
         },
         {
-            name: 'Personal accounting',
-            descr: 'Web application to record all my income and expenditure on Svelte.',
+            name: 'Mobile personal accounting',
+            descr: 'Web application to record all my income and expenditure on NextJS.',
             link: 'http://212.152.40.222:50402/',
             ghlink: 'https://github.com/baaaka04/oxygen',
-            linkText: 'ab-accounting.ru',
+            linkText: 'http://accounting.my',
             icon: <LinkSVG />,
             jpg: accountingIMG
         },

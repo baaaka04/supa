@@ -30,7 +30,7 @@ height: 124.12px;
 border-radius: 10.3434px;
 margin-bottom: 20.69px;
 transition: all .2s ease-in-out;
-    &:hover {transform: scale(1.2)};
+    &:hover {transform: scale(1.3)};
 `
 const LinkBar = styled.div`
 margin-top: 20.69px;
@@ -64,9 +64,11 @@ export function LProjectsItem({ projectName, projectDescription, link, linkText,
     return (
         <Container>
             <ImageContainer>
-                <ProjectPicture
-                    url={picture}
-                />
+                <Link target="_blank" href={link}>
+                    <ProjectPicture
+                        url={picture}
+                    />
+                </Link>
                 <GHLink target="_blank" href={ghlink}>GitHub</GHLink>
             </ImageContainer>
             <ProjectName>

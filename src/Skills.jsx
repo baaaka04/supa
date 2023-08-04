@@ -21,16 +21,16 @@ export function Skills() {
             icon: <DevSVG />,
             value: [
                 [
-                    [['React JS'], ['Next JS']],
+                    [['SwiftUI'], ['Firebase']],
                 ],
                 [
                     [['Typescript']],
-                    [['Redux']],
-                    [['ES6']],
+                    [['Next JS']],
+                    [['React JS']],
                 ],
                 [
                     [['HTML'], ['CSS'], ['JS']],
-                    [['Git', 'NodeJS', 'VS Code']]
+                    [['Git', 'xCode', 'VS Code', 'NodeJS']]
                 ]
             ],
             fontColor: '#9251F7',

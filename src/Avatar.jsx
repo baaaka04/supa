@@ -83,7 +83,7 @@ export function Avatar() {
             <NameBox>
                 <Img />
                 <Name>Artem Berezin</Name>
-                <Position>Frontend Developer</Position>
+                <Position>iOS Developer</Position>
             </NameBox>
             <QuoteBox>
                 <Quote>

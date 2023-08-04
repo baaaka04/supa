@@ -35,8 +35,8 @@ export function Aside() {
                 <Contacts
                     contacts={{
                         email: 'berezin.artem@yahoo.com',
-                        phone: '(+7) 964 557 24 63',
-                        address: 'Moscow, Russia'
+                        phone: '(+996) 507 747 453',
+                        address: 'Bishkek, Kyrgyzstan'
                     }}
                 />
                 <Divider />

@@ -9,9 +9,19 @@ import resumeIMG from './images/supa_resume.jpg';
 import googlebooksIMG from './images/google-books.png';
 import accountingIMG from './images/web_accounting.jpg';
 import quizIMG from './images/quiz.jpg';
+import expensifyIMG from './images/expensify.jpg';
 
 export function LastProjects() {
     const projects = [
+        {
+            name: 'My accounting App',
+            descr: 'Figma to SwiftUI practice.',
+            link: 'https://www.figma.com/community/file/1150405975570017109',
+            ghlink: 'https://github.com/baaaka04/mokpon',
+            linkText: 'figma.com/expensify',
+            icon: <Figma />,
+            jpg: expensifyIMG
+        },
         {
             name: 'My own resume',
             descr: 'Figma to React practice.',

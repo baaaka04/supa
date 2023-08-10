@@ -25,9 +25,9 @@ export function Container() {
     return (
         <Content>
             <Experience />
+            <Skills />
             <LastProjects />
             <Education />
-            <Skills />
 
             <Mobile>
                 <Divider />

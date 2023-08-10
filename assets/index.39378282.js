@@ -414,7 +414,7 @@ display: none;
     flex-direction: column;
     align-items: center;
   }
-    `;function vp(){return U(mp,{children:[v(A2,{}),v(V2,{}),v(b2,{}),v(hp,{}),U(gp,{children:[v(hn,{}),v(y1,{contacts:{email:"berezin.artem@yahoo.com",phone:"(+7) 964 557 24 63",address:"Moscow, Russia"}}),v(hn,{}),v(k1,{socials:{vk:"@baaaka",github:"@baaaka04",telegram:"@baaaka",codewars:"baaaka04"}}),v(hn,{}),v(w1,{})]})]})}const yp=I.div`
+    `;function vp(){return U(mp,{children:[v(A2,{}),v(hp,{}),v(V2,{}),v(b2,{}),U(gp,{children:[v(hn,{}),v(y1,{contacts:{email:"berezin.artem@yahoo.com",phone:"(+7) 964 557 24 63",address:"Moscow, Russia"}}),v(hn,{}),v(k1,{socials:{vk:"@baaaka",github:"@baaaka04",telegram:"@baaaka",codewars:"baaaka04"}}),v(hn,{}),v(w1,{})]})]})}const yp=I.div`
 display: flex;
 justify-content: center;
 @media (max-width: 1010px) {

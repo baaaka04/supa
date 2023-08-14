@@ -43,6 +43,7 @@ export function Aside() {
 
                 <Socials
                     socials={{
+                        linkedin: '/artem-berezin-ios',
                         vk: '@baaaka',
                         github: '@baaaka04',
                         telegram: '@baaaka',

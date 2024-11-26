@@ -21,12 +21,12 @@ export function Skills() {
             icon: <DevSVG />,
             value: [
                 [
-                    [['SwiftUI'], ['Firebase']],
+                    [['SwiftUI'], ['UIKit']],
                 ],
                 [
-                    [['Typescript']],
-                    [['Next JS']],
                     [['React JS']],
+                    [['Firebase']],
+                    [['Typescript']],
                 ],
                 [
                     [['HTML'], ['CSS'], ['JS']],

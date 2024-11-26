@@ -2,25 +2,32 @@ import { LProjectsItem } from "./LProjectsItem";
 import { Header } from './Experience';
 import { StepContent, ContentItem, ContentBox } from "./StepContent";
 import { ReactComponent as Figma } from './icons/figma.svg';
-import { ReactComponent as Google } from './icons/google.svg';
 import { ReactComponent as LinkSVG } from './icons/little-link.svg';
 import { RoundedBox } from "./Contacts.styled.js";
 import resumeIMG from './images/supa_resume.jpg';
-import googlebooksIMG from './images/google-books.png';
-import accountingIMG from './images/web_accounting.jpg';
+import neoschoolIMG from './images/neoschool.jpg';
 import quizIMG from './images/quiz.jpg';
 import expensifyIMG from './images/expensify.jpg';
 
 export function LastProjects() {
     const projects = [
         {
-            name: 'My accounting App',
+            name: 'Expensify iOS App',
             descr: 'Figma to SwiftUI practice.',
             link: 'https://www.figma.com/community/file/1150405975570017109',
             ghlink: 'https://github.com/baaaka04/mokpon',
             linkText: 'figma.com/expensify',
             icon: <Figma />,
             jpg: expensifyIMG
+        },
+        {
+            name: 'NeoSchool iOS App',
+            descr: 'Application for schools.',
+            link: 'https://www.figma.com/design/R5kqngkhbp3E6dlAEzkrzG/NeoSchool-(Copy)?node-id=60-185&node-type=canvas&t=dIWNhCUBHrVaS8TK-0',
+            ghlink: 'https://github.com/baaaka04/NeoSchool',
+            linkText: 'figma.com/NeoSchool',
+            icon: <Figma />,
+            jpg: neoschoolIMG
         },
         {
             name: 'My own resume',
@@ -30,24 +37,6 @@ export function LastProjects() {
             linkText: 'figma.com/supa-resume',
             icon: <Figma />,
             jpg: resumeIMG
-        },
-        {
-            name: 'Mobile personal accounting',
-            descr: 'Web application to record all my income and expenditure on NextJS.',
-            link: 'http://212.152.40.222:50402/',
-            ghlink: 'https://github.com/baaaka04/oxygen',
-            linkText: 'http://accounting.my',
-            icon: <LinkSVG />,
-            jpg: accountingIMG
-        },
-        {
-            name: 'Book finder',
-            descr: 'React SPA with Google.books API searcher.',
-            link: 'https://baaaka04.github.io/book-finder',
-            ghlink: 'https://github.com/baaaka04/book-finder',
-            linkText: 'baaaka04.github.io/book-finder',
-            icon: <Google />,
-            jpg: googlebooksIMG
         },
         {
             name: 'Quiz',

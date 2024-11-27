@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { ExperienceItem } from './ExperienceItem';
 import { StepContent, ContentItem } from './StepContent';
 import malltech from './icons/malltech.png';
+import swift from './icons/swift.png';
 
 export const Header = styled.span`
 display: inline-block;
@@ -21,6 +22,15 @@ max-width: 894.71px;
 
 export function Experience() {
     const jobs = [
+        {
+            period: 'since Jan 2022',
+            city: 'Bishkek',
+            position: 'iOS developer',
+            company: 'Learning',
+            description: 'I am learning and practicing swift programming with a mentor. I have realized projects on UIKit and SwiftUI.',
+            bgcolor: `center/100% url(${swift})`,
+            icon: '',
+        },
         {
             period: 'since Aug 2018',
             city: 'Moscow',

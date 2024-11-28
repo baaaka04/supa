@@ -48,15 +48,6 @@ export function Experience() {
             description: 'Preparation of accounting, statistical and tax reports to the tax inspectorate, the Social Insurance Fund and the FIU. Preparation of accounting, statistical and tax reporting to FTS, FSS and Pension Fund. Inventory and write-off procedures for fixed assets, preparation of reports on accounts receivable and payable, cash flow control.',
             bgcolor: 'center/75% url(https://upload.wikimedia.org/wikipedia/commons/6/66/Emblem_of_Ministry_of_Education_and_Science_of_Russia.svg)',
             icon: '',
-        },
-        {
-            period: 'Aug 2013 - Nov 2013',
-            city: 'Domodedovo',
-            position: 'Service Center Specialist',
-            company: 'MTS',
-            description: 'Receiving and diagnosing devices, carrying out documentation via 1C and SAP, assigning the devices a markdown category.',
-            bgcolor: 'url(https://finrange.com/storage/companies/logo/svg/MOEX_MTSS.svg)',
-            icon: '',
         }
     ]
     return (

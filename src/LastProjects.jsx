@@ -22,7 +22,7 @@ export function LastProjects() {
         },
         {
             name: 'NeoSchool iOS App',
-            descr: 'Application for schools.',
+            descr: 'Application for schools on UIKit.',
             link: 'https://www.figma.com/design/R5kqngkhbp3E6dlAEzkrzG/NeoSchool-(Copy)?node-id=60-185&node-type=canvas&t=dIWNhCUBHrVaS8TK-0',
             ghlink: 'https://github.com/baaaka04/NeoSchool',
             linkText: 'figma.com/NeoSchool',

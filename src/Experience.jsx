@@ -23,7 +23,7 @@ max-width: 894.71px;
 export function Experience() {
     const jobs = [
         {
-            period: 'since Jan 2022',
+            period: 'since Jan 2023',
             city: 'Bishkek',
             position: 'iOS developer',
             company: 'Learning',

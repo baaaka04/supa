@@ -37,13 +37,6 @@ export function Socials(props) {
             url: 'https://www.codewars.com/users/baaaka04',
             color: '#b1361e'
         },
-        {
-            icon: <Vkontakte />,
-            title: 'Vkontakte',
-            value: props.socials.vk,
-            url: 'https://vk.com/baaaka',
-            color: '#5281b8'
-        },
     ]
 
     return (
